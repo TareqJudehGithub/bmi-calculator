@@ -5,9 +5,10 @@ weight = float(input("enter your weight in kg: "))
 
 #Write your code below this line 👇
 
+# Calculating user's BMI:
 BMI = round(weight / height ** 2) 
-print(BMI)
 
+# Building a control flow for different user weight inputs:
 if BMI < 18.5:
   print(f"Your BMI is {BMI}, you are underweight.")
 elif BMI < 25:
